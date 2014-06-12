@@ -1,0 +1,25 @@
+{
+  "name": "seneca-arango-store",
+  "version": "0.0.2",
+  "description": "Node.js Seneca data storage plugin for ArangoDB",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/arango-store.test --reporter=spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kilianc/seneca-arango-store.git"
+  },
+  "author": "Kilian Ciuffolo <me@nailik.org> (http://nailik.org)",
+  "dependencies": {
+    "arango": "^0.4.4",
+    "async": "^0.9.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "debug": "^1.0.2",
+    "mocha": "^1.20.1",
+    "seneca": "^0.5.17",
+    "seneca-store-test": "^0.1.0"
+  }
+}
