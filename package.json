@@ -1,8 +1,8 @@
 {
   "name": "seneca-arango-store",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js Seneca data storage plugin for ArangoDB",
-  "main": "lib/index.js",
+  "main": "lib/arango-store.js",
   "scripts": {
     "test": "NODE_ENV=test mocha test/arango-store.test --reporter=spec"
   },
